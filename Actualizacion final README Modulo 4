@@ -50,17 +50,18 @@ Con `preview`, abrir la dirección indicada por Vite, normalmente `http://localh
 
 No se utilizan variables de entorno propias en la configuración actual. La API pública puede limitar temporalmente las solicitudes (por ejemplo, error 429).
 
-**Repositorio GitHub:** pendiente de agregar después de subir el proyecto.  
-**Aplicación publicada en Vercel:** pendiente de agregar después del despliegue.
+**Repositorio GitHub:** https://github.com/fasutogameplays/PulsoAbierto-Modulo4
+
+**Aplicación publicada en Vercel:** https://pulso-abierto-modulo4.vercel.app/
 
 ## Verificación final
 
-- **Referencia del Módulo 3 (09/11/2026):** 7 pruebas automatizadas aprobadas y compilación correcta en Windows; también se revisaron listado, detalle y favoritos en Chrome.
-- **Pruebas después de la mejora del Módulo 4:** pendiente de ejecutar y registrar.
-- **Lint después de la mejora:** pendiente de ejecutar y registrar.
-- **Build de producción después de la mejora:** pendiente de ejecutar y registrar.
-- **Preview de producción:** pendiente de comprobar y registrar.
-- **Publicación en GitHub/Vercel:** pendiente.
-- **Fecha de preparación de esta versión:** 17/11/2026. La fecha de verificación completa debe anotarse una vez terminadas las comprobaciones.
+- **Pruebas automatizadas:** ejecuté `npm.cmd run test` y pasaron las 7 pruebas de los 3 archivos.
+- **Revisión del código:** ejecuté `npm.cmd run lint` y terminó sin errores.
+- **Build de producción:** ejecuté `npm.cmd run build` y el proyecto compiló correctamente.
+- **Preview:** ejecuté `npm.cmd run preview` y comprobé en Chrome que aparecían Bitcoin, Ethereum y Solana con sus precios.
+- **GitHub:** subí el proyecto a la rama `main` y realicé el commit de la versión final.
+- **Vercel:** publiqué la aplicación y apareció el mensaje "Deployed to Production".
+- **Fecha de verificación:** 17/11/2026.
 
-> Este registro diferencia las pruebas reales del Módulo 3 de las comprobaciones que todavía faltan para cerrar el Módulo 4. No se da por publicada una aplicación hasta tener y verificar el enlace público.
+La aplicación quedó publicada en Vercel. Todavía falta completar la comprobación de las rutas directas, los favoritos y la vista móvil en la versión pública. Durante la instalación, npm también informó 3 vulnerabilidades en dependencias que quedaron pendientes de revisión.
