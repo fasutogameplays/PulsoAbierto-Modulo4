@@ -64,4 +64,9 @@ No se utilizan variables de entorno propias en la configuración actual. La API 
 - **Vercel:** publiqué la aplicación y apareció el mensaje "Deployed to Production".
 - **Fecha de verificación:** 17/11/2026.
 
-La aplicación quedó publicada en Vercel. Todavía falta completar la comprobación de las rutas directas, los favoritos y la vista móvil en la versión pública. Durante la instalación, npm también informó 3 vulnerabilidades en dependencias que quedaron pendientes de revisión.
+
+También comprobé la aplicación publicada en Vercel. Abrí directamente la página de Bitcoin, probé los favoritos y revisé cómo se adapta a una pantalla de celular. Las verificaciones realizadas funcionaron correctamente.
+
+Por último, ejecuté `npm.cmd audit --omit=dev` y el resultado fue **0 vulnerabilidades detectadas en las dependencias de producción**. El análisis general informó 3 vulnerabilidades en dependencias de desarrollo que quedan pendientes de actualización.
+
+**Fecha de verificación final: 17/11/2026.**
